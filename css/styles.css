@@ -1,207 +1,110 @@
-body{
-    font-family: "Roboto",sans-serif;
-    color:#434455;
-    font-size:16px;
-    line-height: 1.5;
-    background-color: #ffffff;
-}
-h1{
-    font-weight: bold;
-    font-size:56px;
-}
-h2{
-    font-weight: bold;
-    font-size: 36px;
-}
-h3{
-    font-weight: medium;
-    font-size:20px;
-}
-button{
-}
-a{
-    font-size:12px;
-    text-decoration: underline;
-}
-ol, ul  {
-    list-style-type: none;
-    
-}
-/*header*/
-#header{
-    
-}
-.header-logo{
-    font-family: "Raleway",sans-serif;
-    font-size:18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #4d5ae5;
-    
-}
-.header_logo_second{
-    color: #2e2f42;
-}
-
-.menu{
-    text-decoration: none;
-    color: #2e2f42;
-    font-size:16px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-}
-.menu:hover, .menu:focus{
-    color:#404bbf;
-}
-.contact_information{
-    font-style: normal;
-
-}
-.contact_list{
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.contact_list:hover, .contact_list:focus{
-    color: #404bbf;
-}
-menu:active{
-    text-decoration: underline;
-    text-decoration-color: #404BBF;
-    color:#404BBF;
-}
-
-/*SLIDER*/
-.slider{
-    background-color: #2E2F42;
-    text-align: center;
-    
-}
-.slider_title{
-    color:#ffffff;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-}
-.blue_button{
+/* Genel Stil */
+body {
     font-family: "Roboto", sans-serif;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color:white;
-    background-color:#4D5AE5;
-    font-size:16px;
-    font-weight: 500;
-    line-height: 1.5;
-    border: none;
-    cursor: pointer;
-
-}
-.blue_button:hover{
-    background-color: #404BBF;
-}
-.blue_button:focus{
-    background-color: #404BBF;
-}
-
-/*ABOUT US*/
-.about_us{
-    
-}
-.about_us_list{
-
-}
-.about_us_subtitle{
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.about_us_content{
-    letter-spacing: 0.02em;
-}
-
-.about_us  li{
-}
-
-/*OUR TEAM*/
-.our_team{
-    background-color: #F4F4FD;
-}
-.our_team_title{
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-    letter-spacing: 0.02em;
-}
-.our_team_list{
-
-}
-.our_team_sub_title{
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.our_team_content{
-    font-size: 16px;
-    letter-spacing: 0.02em;
-}
-.our_team ul {
-    list-style: none outside none;
-}
-.our_team li{
+    color: #434455; /* Hata düzeltildi: Sitenin metin rengi belirlendi */
     background-color: #ffffff;
-    text-align: center;
-}
-
-/*OUR PORTFOLIO*/
-#our_portfolio{
-    text-align: center;
-
-}
-#our_portfolio li{
-}
-.portfolio-title{
-    line-height: 1.11;
-    text-transform: capitalize;
-    color:#2e2f42;
-    letter-spacing: 0.02em;
-}
-.portfolio-sub-title{
+  }
+  
+  /* Logo */
+  .logo {
+    font-family: "Raleway", sans-serif; /* Hata düzeltildi: Font atanması eklendi */
+    font-weight: 700; /* Hata düzeltildi: Metin kalınlığı eklendi */
+    font-size: 18px; /* Hata düzeltildi: Font boyutu belirlendi */
+    line-height: 1.17; /* Hata düzeltildi: Satır aralığı eklendi */
+    letter-spacing: 0.03em; /* Hata düzeltildi: Harfler arası boşluk eklendi */
+    text-transform: uppercase; /* Hata düzeltildi: Büyük harf dönüştürme eklendi */
+    color: #4d5ae5; /* Hata düzeltildi: Metin rengi belirlendi */
+  }
+  
+  /* Span Elementi */
+  span {
+    color: #2e2f42; /* Hata düzeltildi: Metin rengi belirlendi */
+  }
+  
+  /* Navigasyon Linkleri */
+  nav a {
     font-weight: 500;
-    line-height: 1.2;
-    color: #2e2f42;
-    letter-spacing: 0.02em;
-}
-.portfolio-content{
-    letter-spacing: 0.02em;
-}
-/*FOOTER*/
-footer{
-    font-family: "Raleway",sans-serif;
-    background-color: #2E2F42;
-    letter-spacing: 17.33;
-}
-
-.footer-text{
-    color:#F4F4FD;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-}
-.footer-logo{
-    line-height: 1.17;
-    font-size:18px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
+    line-height: 1.5; /* Hata düzeltildi: Satır aralığı eklendi */
+    letter-spacing: 0.02em; /* Hata düzeltildi: Harf aralığı belirlendi */
+    color: #2e2f42; /* Hata düzeltildi: Metin rengi belirlendi */
     text-decoration: none;
-    color: #4d5ae5;
-    text-transform: uppercase
-    
-}
-.footer_logo_second{
-    color: #F4F4FD;
-}
+  }
+  
+  nav a:hover,
+  nav a:focus {
+    color: #404bbf; /* Hata düzeltildi: Hover ve Focus efekti rengi eklendi */
+  }
+  
+  /* Adres */
+  address {
+    font-style: normal; /* Hata düzeltildi: İtalik özelliği kaldırıldı */
+  }
+  
+  /* Başlıklar */
+  h1 {
+    font-size: 56px; /* Hata düzeltildi: Font boyutu belirlendi */
+    line-height: 1.07; /* Hata düzeltildi: Satır aralığı belirlendi */
+    text-align: center; /* Hata düzeltildi: Metin hizalama eklendi */
+    letter-spacing: 0.02em; /* Hata düzeltildi: Harf boşluğu eklendi */
+    color: #ffffff; /* Hata düzeltildi: Metin rengi belirlendi */
+  }
+  
+  /* Buton */
+  button {
+    background-color: #4d5ae5; /* Hata düzeltildi: Arka plan rengi eklendi */
+    font-family: "Roboto", sans-serif;
+    font-weight: 500; /* Hata düzeltildi: Yazı kalınlığı eklendi */
+    font-size: 16px; /* Hata düzeltildi: Font boyutu belirlendi */
+    line-height: 1.5; /* Hata düzeltildi: Satır aralığı belirlendi */
+    letter-spacing: 0.04em; /* Hata düzeltildi: Harf aralığı eklendi */
+    color: #ffffff; /* Hata düzeltildi: Metin rengi belirlendi */
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+  }
+  
+  button:hover,
+  button:focus {
+    background-color: #404bbf; /* Hata düzeltildi: Hover ve Focus rengi belirlendi */
+  }
+  
+  /* H2 Etiketleri */
+  h2 {
+    font-size: 36px; /* Hata düzeltildi: Font boyutu belirlendi */
+    line-height: 1.11; /* Hata düzeltildi: Satır aralığı belirlendi */
+    text-align: center; /* Hata düzeltildi: Metin hizalama eklendi */
+    letter-spacing: 0.02em; /* Hata düzeltildi: Harf boşluğu belirlendi */
+    text-transform: capitalize; /* Hata düzeltildi: İlk harf büyük olacak şekilde ayarlandı */
+    color: #2e2f42; /* Hata düzeltildi: Metin rengi belirlendi */
+  }
+  
+  /* H3 Etiketleri */
+  h3 {
+    font-weight: 500; /* Hata düzeltildi: Yazı tipi kalınlığı belirlendi */
+    font-size: 20px; /* Hata düzeltildi: Font boyutu belirlendi */
+    line-height: 1.2; /* Hata düzeltildi: Satır aralığı belirlendi */
+    letter-spacing: 0.02em; /* Hata düzeltildi: Harf boşluğu belirlendi */
+    color: #2e2f42; /* Hata düzeltildi: Metin rengi belirlendi */
+  }
+  
+  /* Paragraflar */
+  p {
+    line-height: 1.5; /* Hata düzeltildi: Satır aralığı belirlendi */
+    letter-spacing: 0.02em; /* Hata düzeltildi: Harf boşluğu belirlendi */
+    color: #434455; /* Hata düzeltildi: Metin rengi belirlendi */
+  }
+  
+  /* Arka Plan Renkleri */
+  .hero {
+    background-color: #2e2f42; /* Hata düzeltildi: Arka plan rengi belirlendi */
+  }
+  
+  .features {
+    background-color: #f4f4fd; /* Hata düzeltildi: Arka plan rengi belirlendi */
+  }
+  
+  footer {
+    color: #2e2f42; /* Hata düzeltildi: Metin rengi belirlendi */
+    text-align: center;
+  }
+  
