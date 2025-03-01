@@ -1,12 +1,9 @@
-/* Genel Ayarlar */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    margin: 0;
 }
 
-/* Logo */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -22,16 +19,9 @@ body {
     color: #2e2f42;
 }
 
-/* Navigation */
-.nav-list {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
 .nav-link {
-    font-size: 16px;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -41,11 +31,6 @@ body {
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
-}
-
-/* Contact Info */
-.contact-info {
-    font-style: normal;
 }
 
 .contact-link {
@@ -61,11 +46,9 @@ body {
     color: #404bbf;
 }
 
-/* Hero Section */
 .hero {
     background-color: #2e2f42;
     text-align: center;
-    padding: 60px 0;
 }
 
 .hero-title {
@@ -75,17 +58,14 @@ body {
     color: #ffffff;
 }
 
-/* Button */
 .btn {
-    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
-    background-color: #4D5AE5;
+    color: white;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
 }
 
@@ -94,16 +74,15 @@ body {
     background-color: #404BBF;
 }
 
-/* Footer */
-.site-footer {
-    background-color: #2E2F42;
-    text-align: center;
-    padding: 20px 0;
+.features {
+    background-color: #f4f4fd;
 }
 
-.footer-text {
-    color: #F4F4FD;
-    font-size: 16px;
-    line-height: 1.5;
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
