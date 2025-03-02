@@ -1,92 +1,254 @@
+/* --------------------------
+   GENEL AYARLAR (BODY vb.)
+--------------------------- */
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
-
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    font-family: "Roboto", sans-serif; /* 9. madde */
+    color: #434455;                    /* 10. madde */
+    background-color: #ffffff;         /* 11. madde */
+    margin: 0; /* margin yasak değil, default sıfırladık */
+  }
+  
+  /* --------------------------
+     HEADER - NAV - LOGO
+  --------------------------- */
+  .site-header {
+    /* Header için özel bir display/padding vs. kullanmıyoruz */
+    margin: 0;
+  }
+  
+  .site-nav {
+    margin: 0;
+  }
+  
+  .logo-brand {
+    font-family: "Raleway", sans-serif; /* Raleway */
+    font-weight: 700;        /* 700 */
+    font-size: 18px;         /* 18px */
+    line-height: 1.17;       /* 1.17 */
+    letter-spacing: 0.03em;  /* 0.03em */
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
-}
-
-.logo-accent {
-    color: #2e2f42;
-}
-
-.nav-link {
+    text-decoration: none;   /* underline istemiyoruz */
+  }
+  
+  .logo-accent {
+    color: #2e2f42; /* #2e2f42 */
+  }
+  
+  .nav-list {
+    margin: 0;
+  }
+  
+  .nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
-}
-
-.nav-link:hover,
-.nav-link:focus {
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
     color: #404bbf;
-}
-
-.hero {
-    background-color: #2e2f42;
-    text-align: center;
-}
-
-.hero-title {
-    color: #ffffff;
+  }
+  
+  /* --------------------------
+     CONTACT INFO (ADDRESS)
+  --------------------------- */
+  .contact-info {
+    font-style: normal; /* italik kapalı */
+    margin: 0;
+  }
+  
+  .contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+  }
+  
+  .contact-link:hover,
+  .contact-link:focus {
+    color: #404bbf;
+  }
+  
+  /* --------------------------
+     1. SECTION (HERO)
+  --------------------------- */
+  .hero-sec {
+    background-color: #2e2f42; /* #2e2f42 */
+    text-align: center;        /* h1 ortalamak için */
+    margin: 0;
+  }
+  
+  .hero-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-}
-
-.btn {
-    background-color: #4D5AE5;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .btn-order {
+    background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    border: none;
-    cursor: pointer;
-}
-
-.btn:hover,
-.btn:focus {
+    cursor: pointer; /* pointer */
+    border: none;    /* border kullanmak yasak değil ama kaldırdık */
+  }
+  
+  .btn-order:hover,
+  .btn-order:focus {
     background-color: #404bbf;
-}
-
-.section-title {
+  }
+  
+  /* --------------------------
+     2. SECTION (ABOUT / FEATURES)
+  --------------------------- */
+  .about-sec {
+    margin: 0;
+  }
+  
+  .section-title {
+    /* Bu h2'ye genel bir class. "About Us" ve benzeri */
+    font-size: 36px;       /* Her ne kadar 2. section için dokümanda net belirtilmemiş olsa da genelde 36px isteniyor */
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .feature-list {
+    margin: 0;
+  }
+  
+  .feature-item {
+    margin: 0;
+  }
+  
+  .feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0;
+  }
+  
+  .feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin: 0;
+  }
+  
+  /* --------------------------
+     3. SECTION (TEAM)
+  --------------------------- */
+  .team-sec {
+    background-color: #f4f4fd;
+    margin: 0;
+  }
+  
+  .team-heading {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-
-.team {
-    background-color: #f4f4fd;
     text-align: center;
-}
-
-.team-member {
+    margin: 0;
+  }
+  
+  .team-list {
+    margin: 0;
+  }
+  
+  .team-card {
     background-color: #ffffff;
-    padding: 20px;
-}
-
-.team-name {
-    font-size: 20px;
+    margin: 0;
+  }
+  
+  .team-name {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
-}
-
-.team-role {
+    margin: 0;
+  }
+  
+  .team-role {
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
-}
+    margin: 0;
+  }
+  
+  /* --------------------------
+     4. SECTION (PORTFOLIO)
+  --------------------------- */
+  .portfolio-sec {
+    margin: 0;
+  }
+  
+  .portfolio-heading {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .portfolio-list {
+    margin: 0;
+  }
+  
+  .portfolio-item {
+    margin: 0;
+  }
+  
+  .portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0;
+  }
+  
+  .portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin: 0;
+  }
+  
+  /* --------------------------
+     FOOTER
+  --------------------------- */
+  .site-footer {
+    color: #2e2f42; /* Dokümanda "arkaplan rengi" dense de 'color' ifadesi var */
+    text-align: center;
+    margin: 0;
+  }
+  
+  .footer-info {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+  
