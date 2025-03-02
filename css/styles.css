@@ -2,17 +2,16 @@
    GENEL AYARLAR (BODY vb.)
 --------------------------- */
 body {
-    font-family: "Roboto", sans-serif; /* 9. madde */
-    color: #434455;                    /* 10. madde */
-    background-color: #ffffff;         /* 11. madde */
-    margin: 0; /* margin yasak değil, default sıfırladık */
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    margin: 0;
   }
   
   /* --------------------------
      HEADER - NAV - LOGO
   --------------------------- */
   .site-header {
-    /* Header için özel bir display/padding vs. kullanmıyoruz */
     margin: 0;
   }
   
@@ -21,18 +20,18 @@ body {
   }
   
   .logo-brand {
-    font-family: "Raleway", sans-serif; /* Raleway */
-    font-weight: 700;        /* 700 */
-    font-size: 18px;         /* 18px */
-    line-height: 1.17;       /* 1.17 */
-    letter-spacing: 0.03em;  /* 0.03em */
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;   /* underline istemiyoruz */
+    text-decoration: none;
   }
   
   .logo-accent {
-    color: #2e2f42; /* #2e2f42 */
+    color: #2e2f42; /* Footer için de bu stil geçerli */
   }
   
   .nav-list {
@@ -57,7 +56,7 @@ body {
      CONTACT INFO (ADDRESS)
   --------------------------- */
   .contact-info {
-    font-style: normal; /* italik kapalı */
+    font-style: normal;
     margin: 0;
   }
   
@@ -78,8 +77,8 @@ body {
      1. SECTION (HERO)
   --------------------------- */
   .hero-sec {
-    background-color: #2e2f42; /* #2e2f42 */
-    text-align: center;        /* h1 ortalamak için */
+    background-color: #2e2f42;
+    text-align: center;
     margin: 0;
   }
   
@@ -99,8 +98,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    cursor: pointer; /* pointer */
-    border: none;    /* border kullanmak yasak değil ama kaldırdık */
+    cursor: pointer;
+    border: none;
   }
   
   .btn-order:hover,
@@ -116,8 +115,7 @@ body {
   }
   
   .section-title {
-    /* Bu h2'ye genel bir class. "About Us" ve benzeri */
-    font-size: 36px;       /* Her ne kadar 2. section için dokümanda net belirtilmemiş olsa da genelde 36px isteniyor */
+    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -240,7 +238,7 @@ body {
      FOOTER
   --------------------------- */
   .site-footer {
-    color: #2e2f42; /* Dokümanda "arkaplan rengi" dense de 'color' ifadesi var */
+    color: #2e2f42; /* Footer için arkaplan rengi yerine text rengi olarak verildi (ödevde belirtilen şekilde) */
     text-align: center;
     margin: 0;
   }
