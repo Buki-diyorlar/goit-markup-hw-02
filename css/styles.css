@@ -31,7 +31,8 @@ body {
   }
   
   .logo-accent {
-    color: #2e2f42; /* Footer için de bu stil geçerli */
+    /* Ödevde istenen: <span> elementine metin rengini belirlemek için color: #2e2f42 */
+    color: #2e2f42;
   }
   
   .nav-list {
@@ -238,7 +239,7 @@ body {
      FOOTER
   --------------------------- */
   .site-footer {
-    color: #2e2f42; /* Footer için arkaplan rengi yerine text rengi olarak verildi (ödevde belirtilen şekilde) */
+    background-color: #2e2f42;  /* Footer için arkaplan rengi tanımlandı */
     text-align: center;
     margin: 0;
   }
